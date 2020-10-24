@@ -44,7 +44,7 @@ class Taco
   {
     fill(colour);
     stroke(colour);
-    arc(myX, myY, size, size, PI, TWO_PI);
+    ellipse(myX, myY, size, size);
     fill(150, 150, 150);
     stroke(150,150,150);
     ellipse(100, 10, 300, 100);
